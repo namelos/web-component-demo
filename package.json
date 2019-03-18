@@ -4,9 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@angular/common": "^7.2.9",
+    "@angular/compiler": "^7.2.9",
+    "@angular/core": "^7.2.9",
+    "@angular/platform-browser": "^7.2.9",
+    "@angular/platform-browser-dynamic": "^7.2.9",
+    "core-js": "^2.6.5",
+    "parcel-bundler": "^1.12.2",
+    "rxjs": "^6.4.0",
+    "typescript": "^3.3.3333",
+    "zone.js": "^0.8.29"
+  }
 }

@@ -8,8 +8,8 @@ import { Component } from '@angular/core'
     </div>
   `
 })
-export class MainComponent {
-  text = 'ng'
+export class NgComponent {
+  text = 'Ng Component'
 
   constructor() {}
 }

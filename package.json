@@ -17,6 +17,7 @@
     "@angular/platform-browser": "^7.2.9",
     "@angular/platform-browser-dynamic": "^7.2.9",
     "@vue/component-compiler-utils": "^2.6.0",
+    "@webcomponents/webcomponentsjs": "^2.2.7",
     "core-js": "^2.6.5",
     "parcel-bundler": "^1.12.2",
     "rxjs": "^6.4.0",
@@ -25,6 +26,7 @@
     "zone.js": "^0.8.29"
   },
   "dependencies": {
+    "@angular/elements": "^7.2.9",
     "vue": "^2.6.9",
     "vue-hot-reload-api": "^2.3.3"
   }

@@ -9,7 +9,7 @@
     name: 'App',
     data() {
       return {
-        message: 'vue'
+        message: 'Vue Component'
       }
     }
   }

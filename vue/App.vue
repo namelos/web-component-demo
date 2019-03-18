@@ -1,12 +1,15 @@
 <template>
-  <div class="container">
-    <h1>{{ message }}</h1>
-  </div>
+  <VueContainerComponent />
 </template>
 
 <script>
+  import VueContainerComponent from './VueContainerComponent'
+
   export default {
     name: 'App',
+    components: {
+      VueContainerComponent
+    },
     data() {
       return {
         message: 'Vue Component'

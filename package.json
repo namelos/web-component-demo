@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "@angular/elements": "^7.2.9",
+    "@vue/web-component-wrapper": "^1.2.0",
     "vue": "^2.6.9",
     "vue-hot-reload-api": "^2.3.3"
   }

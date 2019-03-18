@@ -7,6 +7,9 @@ import { AppModule } from './ng/app.module'
 import Vue from 'vue'
 // @ts-ignore
 import App from './vue/App'
+// @ts-ignore
+import VueWebComponent from './vue/VueWebComponent'
+import wrap from '@vue/web-component-wrapper'
 import './webComponents'
 
 platformBrowserDynamic().bootstrapModule(AppModule)
@@ -15,3 +18,5 @@ new Vue({
   el: '#app',
   render: h => h(App)
 })
+
+window.customElements.define('vue-web-component', wrap(Vue, VueWebComponent))

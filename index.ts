@@ -6,6 +6,7 @@ import { AppModule } from './ng/app.module'
 import Vue from 'vue'
 // @ts-ignore
 import App from './vue/App'
+import './webComponents'
 
 platformBrowserDynamic().bootstrapModule(AppModule)
 

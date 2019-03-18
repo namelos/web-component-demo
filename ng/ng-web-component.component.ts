@@ -1,11 +1,9 @@
 import { Component } from '@angular/core'
 
 @Component({
-  selector: 'ng-web-component',
+  selector: 'ng-web-component-private',
   template: `
-    <div>
-      <h1>{{text}}</h1>
-    </div>
+    <h2>{{text}}</h2>
   `
 })
 export class NgWebComponentComponent {

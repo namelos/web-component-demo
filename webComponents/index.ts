@@ -3,7 +3,7 @@ export class WebComponent extends HTMLElement {
     super()
 
     const shadow = this.attachShadow({ mode: 'open' })
-    const wrapper = document.createElement('h1')
+    const wrapper = document.createElement('h2')
     wrapper.textContent = 'Web Component'
 
     shadow.appendChild(wrapper)

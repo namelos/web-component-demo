@@ -11,11 +11,13 @@ import App from './vue/App'
 import VueWebComponent from './vue/VueWebComponent'
 import wrap from '@vue/web-component-wrapper'
 import './webComponents'
+import './react/ReactContainerComponent'
+import './react/ReactWebComponent'
 
 platformBrowserDynamic().bootstrapModule(AppModule)
 
 new Vue({
-  el: '#app',
+  el: '#vue-app',
   render: h => h(App)
 })
 

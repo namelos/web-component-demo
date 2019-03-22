@@ -8,6 +8,7 @@ import { Component } from '@angular/core'
       <web-component></web-component>
       <ng-web-component></ng-web-component>
       <vue-web-component></vue-web-component>
+      <react-web-component></react-web-component>
     </div>
   `,
   styles: [

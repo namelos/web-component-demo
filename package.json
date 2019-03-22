@@ -10,7 +10,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "@angular/common": "^7.2.9",
     "@angular/compiler": "^7.2.9",
     "@angular/core": "^7.2.9",
@@ -23,9 +23,7 @@
     "rxjs": "^6.4.0",
     "typescript": "^3.3.3333",
     "vue-template-compiler": "^2.6.9",
-    "zone.js": "^0.8.29"
-  },
-  "dependencies": {
+    "zone.js": "^0.8.29",
     "@angular/elements": "^7.2.9",
     "@types/react": "^16.8.8",
     "@types/react-dom": "^16.8.3",
